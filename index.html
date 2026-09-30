@@ -1,0 +1,16 @@
+<script>
+const correctPIN = "7889";
+
+function checkPIN() {
+    const pin = document.getElementById("pin").value;
+
+    if (pin === correctPIN) {
+        window.open(
+            "https://drive.google.com/file/d/1RfAy-7mWHD-s1tV5ZRQzLlXJs7HUUTNo/view?usp=drivesdk",
+            "_blank"
+        );
+    } else {
+        alert("Wrong PIN!");
+    }
+}
+</script>
